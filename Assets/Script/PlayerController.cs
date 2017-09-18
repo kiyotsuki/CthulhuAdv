@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 		{
 			markerPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-			EyeMarker.transform.position = markerPos;
+			EyeMarker.transform.position = new Vector3(markerPos.x, markerPos.y, -1);
 		}
 		if (playable && Vector2.Distance(playerPos, markerPos) > 0.1f)
 		{

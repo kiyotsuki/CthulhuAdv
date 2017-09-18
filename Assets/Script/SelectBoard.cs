@@ -28,7 +28,7 @@ public class SelectBoard : MonoBehaviour
 		state = 0;
 
 		//SetSelect(new string[] { "調べてみる", "やめとこう・・・", "食べよう！", "眠い！" });
-		//SetSelect(new string[] { "調べてみる", "やめとこう・・・", "食べよう！" });
+		//SetSelect(new string[] { "調べてみる:a", "やめとこう・・・:b", "食べよう！:c" });
 		//SetSelect(new string[] { "調べてみる", "やめとこう・・・" });
 	}
 
